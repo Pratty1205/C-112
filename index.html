@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+   <div class="col-xs-12 header_div">
+     <h1>Image Identfication <img src="https://static.wixstatic.com/media/93eb5f_baaea52385ff4329ab0dd2a445600d7b~mv2.gif" alt=""></h1>
+    </div>
+    <div class="col-sm-6 col-xs-12 main_div">
+      <label>Webcam View</label>
+      <div id="camera"></div>
+      <button class="btn btn-info" onclick="take_snapshot()">Capture Image</button>
+    </div>
+    <div class="col-sm-6 col-xs-12 main_div">
+      <label>Snapshot</label>
+      <div id="result"></div>
+      <button class="btn btn-success" onclick="check()">Identify</button>
+    </div>
+    </center>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-xs-12 col-sm-6">
+      <img src="bulb.gif">
+      <span id="object_name"></span>
+      </h4>
+    </div>
+    <div class="copyrightfooter">Developed by- Pratyush Prakash</div>
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background:rgb(168, 255, 219);
+}
+.header_div {
+    background:rgb(168, 255, 219) ;
+    color:midnightblue ;
+}
+.header_div img {
+    width: 150px;
+}
+.main_div {
+    background:paleturquoise ;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid midnightblue;
+}
+.main_div label {
+    background: paleturquoise;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px white;
+}
+.main_div button {
+    width: 310px;
+    font-size: 15px;
+    box-shadow: 5px 5px 18px white;
+    color:midnightblue;
+    border: 1px solid midnightblue;
+}
+#camera, #result {
+    border: 2px solid white;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+}
+.footer_div {
+    background: paleturquoise;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+.footer_div img {
+    width: 70px;
+}
+.copyrightfooter {
+    position: 6;
+    background: midnightblue;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
